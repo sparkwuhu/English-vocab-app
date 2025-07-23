@@ -1,0 +1,130 @@
+{
+  "wordSets": [
+    {
+      "id": "junior-high",
+      "name": "初中英语",
+      "description": "初中阶段必备英语词汇",
+      "difficulty": 1,
+      "wordCount": 1200,
+      "tags": ["junior", "basic"],
+      "isDefault": true
+    },
+    {
+      "id": "senior-high", 
+      "name": "高中英语",
+      "description": "高中阶段核心英语词汇",
+      "difficulty": 2,
+      "wordCount": 2000,
+      "tags": ["senior", "high-school"],
+      "isDefault": false
+    },
+    {
+      "id": "cet4",
+      "name": "英语四级",
+      "description": "大学英语四级考试词汇",
+      "difficulty": 3,
+      "wordCount": 4500,
+      "tags": ["cet4", "college"],
+      "isDefault": false
+    },
+    {
+      "id": "cet6",
+      "name": "英语六级", 
+      "description": "大学英语六级考试词汇",
+      "difficulty": 4,
+      "wordCount": 6000,
+      "tags": ["cet6", "advanced"],
+      "isDefault": false
+    }
+  ],
+  "words": [
+    {
+      "id": "word-1",
+      "word": "apple",
+      "pronunciation": "/ˈæpəl/",
+      "definitions": [
+        {
+          "partOfSpeech": "n.",
+          "meaning": "苹果",
+          "englishDefinition": "a round fruit with red or green skin"
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "I eat an apple every day.",
+          "translation": "我每天吃一个苹果。"
+        }
+      ],
+      "difficulty": 1,
+      "frequency": 9000,
+      "tags": ["fruit", "food"],
+      "wordSet": "junior-high"
+    },
+    {
+      "id": "word-2", 
+      "word": "beautiful",
+      "pronunciation": "/ˈbjuːtɪfəl/",
+      "definitions": [
+        {
+          "partOfSpeech": "adj.",
+          "meaning": "美丽的，漂亮的",
+          "englishDefinition": "pleasing the senses or mind aesthetically"
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "She has a beautiful smile.",
+          "translation": "她有一个美丽的笑容。"
+        }
+      ],
+      "difficulty": 2,
+      "frequency": 7800,
+      "tags": ["adjective", "description"],
+      "wordSet": "senior-high"
+    },
+    {
+      "id": "word-3",
+      "word": "environment",
+      "pronunciation": "/ɪnˈvaɪrənmənt/",
+      "definitions": [
+        {
+          "partOfSpeech": "n.",
+          "meaning": "环境",
+          "englishDefinition": "the surroundings or conditions in which a person, animal, or plant lives"
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "We should protect the environment.",
+          "translation": "我们应该保护环境。"
+        }
+      ],
+      "difficulty": 3,
+      "frequency": 6500,
+      "tags": ["noun", "nature"],
+      "wordSet": "cet4"
+    },
+    {
+      "id": "word-4",
+      "word": "sophisticated",
+      "pronunciation": "/səˈfɪstɪkeɪtɪd/",
+      "definitions": [
+        {
+          "partOfSpeech": "adj.",
+          "meaning": "复杂的，精密的",
+          "englishDefinition": "having great knowledge or experience"
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "This is a sophisticated system.",
+          "translation": "这是一个复杂的系统。"
+        }
+      ],
+      "difficulty": 4,
+      "frequency": 3200,
+      "tags": ["adjective", "advanced"],
+      "wordSet": "cet6"
+    }
+  ]
+}
